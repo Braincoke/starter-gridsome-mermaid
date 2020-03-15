@@ -3,7 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import 'prismjs/themes/prism.css'
-
+import './scss/mermaid/default/index.scss'
 
 export default function (Vue, { router, head, isClient }) {
   head.link.push({

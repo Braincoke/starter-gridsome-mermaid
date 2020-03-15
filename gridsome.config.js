@@ -23,6 +23,8 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       plugins: [
+        ['gridsome-plugin-remark-mermaid',
+        { removeStyleTags: true }],
         '@gridsome/remark-prismjs'
       ]
     }
